@@ -23,4 +23,5 @@ while True:
     if guide_status != guide_status_aux:
         guide_status = guide_status_aux
         requests.get(whatsapp_api_url_request)
+        print(guide_status)
     time.sleep(600)
